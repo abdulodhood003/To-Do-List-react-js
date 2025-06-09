@@ -1,6 +1,5 @@
 {
-  "homepage": "https://abdulodhood003.github.io/my-app",
-  "name": "my-app",
+  "homepage": "https://abdulodhood003.github.io/To-Do-List-react-js",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,7 +15,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy" :"npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -39,5 +38,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
